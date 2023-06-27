@@ -1,55 +1,66 @@
-
-body{
-    font-family: 'Times New Roman';
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    text-align: center;
+body {
+  font-family: "Times New Roman";
 }
 
-header{
-    margin-bottom: 144px;
-    background-color: #E6E6E6;
+header {
+  margin-bottom: 144px;
+  background-color: #E6E6E6;
+}
+header h1 {
+  text-align: center;
+}
+header .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.fechas{
-    font-weight: bold;
+.fechas {
+  font-weight: bold;
 }
 
-.logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.titulo {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 84.69%;
+  letter-spacing: 10px;
+  background-color: #C4C4C4;
+  color: #005677;
 }
 
-.titulo{
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 84.69%;
-    letter-spacing: 10px;
-    background-color: #C4C4C4;
-    color: #005677;
+.subtitulo {
+  font-size: 20px;
+  line-height: 84.69%;
 }
 
-.subtitulo{
-    font-size: 20px;
-    line-height: 84.69%;
+section {
+  min-height: 100px;
+}
+section h2 {
+  padding: 0 3rem;
+}
+section .section-body {
+  margin: 2rem 3rem;
+}
+section dd {
+  padding-left: 2rem;
 }
 
-.rrssIcon{
-
-}
-
-footer{
-    text-align: center;
-    background-color: #005677;
-    color: white; 
-
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 84.69%;
-}
+footer {
+  display: block;
+  text-align: center;
+  background-color: #005677;
+  color: white;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 100px;
+}/*# sourceMappingURL=styles.css.map */
